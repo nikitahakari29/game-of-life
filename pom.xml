@@ -495,4 +495,14 @@
             </reporting>
         </profile>
     </profiles>
+    <distributionManagement>
+        <repository>
+            <id>release</id>
+            <url>http://localhost:8081/#browse/browse:maven-releases</url>
+        </repository>
+        <repository>
+            <id>snapshot</id>
+            <url>http://localhost:8081/#browse/browse:maven-snapshots</url>
+        </repository>
+    </distributionManagement>
 </project>
